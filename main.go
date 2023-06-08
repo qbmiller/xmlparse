@@ -20,7 +20,7 @@ type LineMap map[string]string
 type ItemList []LineMap
 
 func main() {
-    matches, _ := filepath.Glob(GetCWD() + "/config/*.xml")
+    matches, _ := filepath.Glob(GetPWD() + "/config/*.xml")
     for _, file := range matches {
         err := parse(file)
         if err != nil {
@@ -77,7 +77,7 @@ func parseInside(filename string, ele *etree.Element) {
     }
 }
 
-func GetCWD() string {
+func GetPWD() string {
     cwd, _ := os.Getwd()
     return cwd
 }
