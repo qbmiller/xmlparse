@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tns:database xmlns:tns="http://www.iw.com/sns/platform/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<Group id="tab">
+	<ItemSpec id="10000" multi="1" name="8100000" icon="ico9000000" color="0" goods_type="1" goods="10000;1" num_local="0" pool_id="1" condition="2;100" currency_type="2;100" num_limit="0" time_limit="0"/>
+	<ItemSpec id="10001" name="444" icon="icon002000" color="0" goods_type="1" goods="10001;1" num_local="0" pool_id="1" condition="2;100" currency_type="2;100" num_limit="0" time_limit="0"/>
+	<ItemSpec id="10002" start="2023-01-11 08:00:00" name="8100000" icon="ico9000000" color="0" goods_type="1" goods="10002;1" num_local="0" pool_id="1" condition="2;100" currency_type="2;100" num_limit="0" time_limit="0"/>
+</Group>
+
+<!--可以保留注释，后边用再打开-->
+<Group id="vip2">
+<!--	<ItemSpec id="20000" name="90000101" icon="item209101" color="5" goods_type="0" goods="209101;1" num_local="0" pool_id="2" condition="0" currency_type="3;1600" num_limit="0" time_limit="0"/>-->
+	<ItemSpec id="20004" name="222" icon="item209105" color="5" goods_type="0" goods="209105;1" num_local="0" pool_id="2" condition="0" currency_type="3;1600" num_limit="0" time_limit="0"/>
+	<ItemSpec id="20005" name="122" icon="item209106" color="5" goods_type="0" goods="209106;1" num_local="0" pool_id="2" condition="0" currency_type="3;1600" num_limit="0" time_limit="0"/>
+</Group>
+
+
+<Group id="vip">
+    <ItemSpec id="30002" name="11004" icon="item015" color="2" goods_type="0" goods="209121;1" num_local="1" pool_id="3" condition="4;1"  />
+    <ItemSpec id="30009" name="213" icon="item015" color="2" goods_type="0" goods="209128;1" num_local="1" pool_id="3" condition="4;5" currency_type="0;0" num_limit="1" time_limit="0" />
+  <ItemSpec id="30020" name="12312" icon="item015" color="4" goods_type="0" goods="209139;1" num_local="1" pool_id="3" condition="4;10" currency_type="1;3998" num_limit="1" time_limit="0" />
+</Group>
+<!-- vip商店-->
+
+
+</tns:database>

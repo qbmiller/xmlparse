@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tns:database xmlns:tns="http://www.iw.com/sns/platform/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ItemSpec id="7101" mail="1" member="1" use="1" help="1" info="1" quit="1"/>
+    <ItemSpec id="7102" mail="1" member="1" use="1" help="1" info="1" quit="1"/>
+    <ItemSpec id="7103" mail="1" member="1" use="1" help="1" info="1" quit="1" rankup="1" rankdown="1"/>
+</tns:database>
