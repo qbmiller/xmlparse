@@ -11,3 +11,12 @@ xml config parse example
 旧的注释数据（后边还要继续用）保留，json不支持
 - TODO 
  引入配置中心，改完的xml部署后，有历史记录可查，支持回滚等操作
+
+
+-target:
+line : map<string,string>//每行是多个key,value
+file: map<string,line>// 每行id 是key
+file：map<string,list<line>> // 针对 成就 、7日签到、升级 等一系列有关联的配置
+
+支持get("file+id").getstring("field")  // 基于某个道具id，获取它的某个属性配置
+支持getgroup("file-vip")=>list<line>
