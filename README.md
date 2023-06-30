@@ -12,8 +12,7 @@ xml config parse example
 - TODO 
  引入配置中心，改完的xml部署后，有历史记录可查，支持回滚等操作
 
-
--target:
+- target
 line : map<string,string>//每行是多个key,value
 file: map<string,line>// 每行id 是key
 file：map<string,list<line>> // 针对 成就 、7日签到、升级 等一系列有关联的配置
